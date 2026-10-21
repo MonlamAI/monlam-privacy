@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Privacy Policy for Monlam Keyboard (com.monlamai.monlamkeyboard) on Google Play." />
+    <title>Privacy Policy — Monlam Keyboard</title>
+    <style>
+        :root {
+            --primary: #0ea5a4;
+            --primary-dark: #0f766e;
+            --primary-light: #f0fdfa;
+            --bg: #f7fafc;
+            --surface: #ffffff;
+            --border: #e2e8f0;
+            --text: #0f172a;
+            --text-muted: #475569;
+            --green: #059669;
+            --green-bg: #ecfdf5;
+            --amber: #b45309;
+            --amber-bg: #fef3c7;
+            --radius: 8px;
+            --shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            background: #0ea5a4;
+            color: #ffffff;
+            padding: 28px 20px;
+        }
+
+        .wrap {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        main.wrap {
+            margin: 28px auto;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .app-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.16);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.28);
+            flex-shrink: 0;
+        }
+
+        .app-icon svg {
+            width: 32px;
+            height: 32px;
+            fill: #ffffff;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ffffff;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.95);
+            margin-top: 4px;
+        }
+
+        .subtitle code {
+            background: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 8px 16px;
+            padding-top: 14px;
+            border-top: 1px solid rgba(255, 255, 255, 0.22);
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.92);
+        }
+
+        .meta-grid strong {
+            color: #ffffff;
+        }
+
+        .meta-grid code {
+            background: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .section {
+            background: var(--surface);
+            border-radius: var(--radius);
+            padding: 20px 22px;
+            box-shadow: var(--shadow);
+            margin-bottom: 16px;
+        }
+
+        /* Summary highlights */
+        .highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-top: 14px;
+        }
+
+        .highlight-card {
+            background: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px;
+        }
+
+        .badge-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: #e6fffa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .badge-icon svg {
+            width: 18px;
+            height: 18px;
+            fill: var(--primary);
+        }
+
+        .highlight-card h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            color: var(--primary);
+        }
+
+        .highlight-card p {
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            font-size: 15px;
+            font-weight: 600;
+            margin: 16px 0 6px;
+            color: var(--text);
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.6;
+            margin: 12px 0;
+        }
+
+        ul,
+        ol {
+            margin: 12px 0 0 20px;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        code {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-size: 0.88em;
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: var(--text);
+        }
+
+        /* Callout boxes */
+        .callout {
+            border-radius: 6px;
+            padding: 12px 16px;
+            margin: 14px 0;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .callout-green {
+            background: var(--green-bg);
+            border-left: 4px solid var(--green);
+            color: #065f46;
+        }
+
+        .callout-amber {
+            background: var(--amber-bg);
+            border-left: 4px solid var(--amber);
+            color: #92400e;
+        }
+
+        /* Tables */
+        .table-container {
+            overflow-x: auto;
+            margin: 14px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            margin: 12px 0;
+        }
+
+        th,
+        td {
+            border: 1px solid var(--border);
+            padding: 10px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background: #f1f5f9;
+            font-weight: 600;
+        }
+
+        footer {
+            font-size: 13px;
+            color: var(--text-muted);
+            text-align: center;
+            padding: 24px 0 40px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 20px 16px;
+            }
+
+            .section {
+                padding: 16px 14px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="wrap">
+            <div class="header-content">
+                <div class="app-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M20 5H4c-1.1 0-1.99.9-1.99 2L2 17c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-9 3h2v2h-2V8zm0 3h2v2h-2v-2zM8 8h2v2H8V8zm0 3h2v2H8v-2zm-1 2H5v-2h2v2zm0-3H5V8h2v2zm9 7H8v-2h8v2zm0-4h-2v-2h2v2zm0-3h-2V8h2v2zm3 3h-2v-2h2v2zm0-3h-2V8h2v2z" />
+                    </svg>
+                </div>
+                <div>
+                    <h1>Privacy Policy — Monlam Keyboard</h1>
+                    <div class="subtitle">Google Play &nbsp;·&nbsp;
+                        <code>com.monlamai.monlamkeyboard</code></div>
+                </div>
+            </div>
+            <div class="meta-grid">
+                <div><strong>Developer:</strong> Monlam Tibetan IT Research Center</div>
+                <div><strong>Application ID:</strong> <code>com.monlamai.monlamkeyboard</code></div>
+                <div><strong>Target Platform:</strong> Android 8.0+ (API 26 – 36)</div>
+                <div><strong>Effective Date:</strong> October 21, 2026</div>
+                <div><strong>Last Updated:</strong> October 21, 2026</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="wrap">
+
+        <!-- Summary Cards -->
+        <section class="section">
+            <h2>Key Privacy Highlights</h2>
+            <div class="highlights">
+                <div class="highlight-card">
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-1 6h2v2h-2V7zm0 4h2v6h-2v-6z" />
+                        </svg>
+                    </div>
+                    <h3>Zero Keystroke Logging</h3>
+                    <p>Everything you type remains exclusively on your device. No keystrokes, Tibetan text, passwords, or
+                        personal messages are ever recorded or transmitted.</p>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M6 2v2h12V2h-2v2H8V2H6zm14 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-3 10H7v-2h10v2zm0-4H7v-2h10v2z" />
+                        </svg>
+                    </div>
+                    <h3>On-Device Predictions</h3>
+                    <p>Tibetan next-word suggestions run 100% offline using bundled dictionary and n-gram models. No network
+                        connection is ever used for typing.</p>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5-3c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-2.08c3.39-.49 6-3.39 6-6.92h-2z" />
+                        </svg>
+                    </div>
+                    <h3>Explicit Voice Dictation</h3>
+                    <p>Microphone audio is recorded only upon tapping the mic key, up to a strict 30-second cap. Audio is
+                        sent via TLS to Monlam STT and deleted locally right after.</p>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="badge-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15-5-5 1.41-1.41L11 14.17l7.59-7.59L20 8l-9 9z" />
+                        </svg>
+                    </div>
+                    <h3>No Ads or Tracking</h3>
+                    <p>Contains zero advertising SDKs, zero analytics trackers, zero crash-reporting telemetry, and no
+                        third-party data brokers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1 -->
+        <section class="section" id="introduction">
+            <h2>1. Introduction &amp; Scope</h2>
+            <p>Monlam Keyboard is developed by Monlam Tibetan IT Research Center to provide native Tibetan script
+                input, symbol input, and optional Tibetan speech-to-text (STT) on Android devices.</p>
+            <p>This Privacy Policy explains what data our keyboard and companion application access, how data is
+                processed, and your privacy choices. This policy applies to the official Android application package
+                <code>com.monlamai.monlamkeyboard</code>.</p>
+        </section>
+
+        <!-- 2 -->
+        <section class="section" id="keyboard-input">
+            <h2>2. Keyboard Input &amp; Keystroke Handling</h2>
+            <div class="callout callout-green">
+                <strong>Absolute Keystroke Privacy:</strong> Monlam Keyboard does not log, save, upload, or sell
+                your keystrokes.
+            </div>
+            <p>When you use Monlam Keyboard in any application (such as messaging, banking, email, web browsers, or
+                notes):</p>
+            <ul>
+                <li><strong>RAM-Only Processing:</strong> All keypresses are handled in volatile device memory (RAM)
+                    and directly committed to the active application using the standard Android
+                    <code>InputConnection.commitText()</code> API.</li>
+                <li><strong>Consonant Subjoining:</strong> When typing compound Tibetan characters (e.g., using the
+                    subjoin key), the keyboard reads the immediately preceding character via
+                    <code>getTextBeforeCursor()</code> solely to calculate valid Unicode glyph combinations. This
+                    character inspection is transient and discarded immediately.</li>
+                <li><strong>No Keystroke Telemetry:</strong> We do not track typing speed, key frequency,
+                    autocorrect corrections, or text patterns.</li>
+                <li><strong>No Clipboard Access:</strong> The keyboard does not read or inspect your system
+                    clipboard.</li>
+            </ul>
+        </section>
+
+        <!-- 3 -->
+        <section class="section" id="word-prediction">
+            <h2>3. On-Device Tibetan Word Suggestions</h2>
+            <p>When word suggestions are enabled, candidate words appear in the bar above the keyboard rows:</p>
+            <ul>
+                <li><strong>100% Offline Engine:</strong> Suggestions are generated entirely by an offline,
+                    on-device engine (<code>SuggestionEngine</code>) utilizing compiled Tibetan dictionary and
+                    n-gram files bundled directly within the app assets.</li>
+                <li><strong>Local Debounced Context:</strong> The keyboard inspects the text immediately before the
+                    cursor up to 4,096 characters to evaluate contextual Tibetan word frequency. This analysis
+                    occurs with a 40 ms debounce window in local memory and is never transmitted over the internet.
+                </li>
+                <li><strong>User Preferences:</strong> Your preferred suggestion mode is saved locally in private
+                    Android DataStore preferences (<code>ai.monlam.keyboard_preferences</code>) and is never
+                    synchronized to the cloud.</li>
+                <li><strong>Opt-Out:</strong> Word suggestions can be turned off or changed at any time in the
+                    companion app settings.</li>
+            </ul>
+        </section>
+
+        <!-- 4 -->
+        <section class="section" id="voice-dictation">
+            <h2>4. Voice Input &amp; Speech-to-Text (STT)</h2>
+            <p>Monlam Keyboard offers optional Tibetan voice dictation. Voice input is <strong>strictly
+                    opt-in</strong> and requires your active initiation each time.</p>
+
+            <h3>How Voice Recording Operates (Direct Clip Pipeline)</h3>
+            <ol>
+                <li><strong>Explicit Trigger:</strong> Recording begins only when you tap the microphone key on the
+                    keyboard suggestion bar.</li>
+                <li><strong>Permission Guard:</strong> On first use, Android asks you to grant
+                    <code>RECORD_AUDIO</code> permission. If declined, voice input is disabled; normal keyboard
+                    typing is completely unaffected.</li>
+                <li><strong>Active Recording Indicator:</strong> <code>SttSessionService</code> runs as an explicit
+                    Android Foreground Service (type: <code>microphone</code>). A prominent, persistent notification
+                    is displayed throughout the recording so you always know when the microphone is in use.</li>
+                <li><strong>30-Second Hard Cap:</strong> <code>ClipWavRecorder</code> records audio as a mono 16-bit
+                    PCM WAV file. Recording stops automatically when 30 seconds elapse or when you tap the Stop
+                    button.</li>
+                <li><strong>TLS-Encrypted Transmission:</strong> The recorded audio clip is transmitted over HTTPS
+                    (TLS) to Monlam's dedicated Speech-to-Text API endpoint at
+                    <code>https://api-v1.monlamai.studio/api/v1/speech-to-text/</code>.</li>
+                <li><strong>Direct Text Insertion:</strong> The transcribed Tibetan text returned by the server is
+                    inserted directly into your active text field via <code>commitText()</code>.</li>
+                <li><strong>Automatic Termination:</strong> The Foreground Service and microphone stop immediately
+                    once the clip is processed.</li>
+            </ol>
+
+            <div class="callout callout-amber">
+                <strong>Internet Usage Notice:</strong> The app uses the <code>INTERNET</code> permission solely to
+                send voice clips to the Monlam STT server when you choose to dictate. Normal typing and word
+                suggestions never use the internet.
+            </div>
+        </section>
+
+        <!-- 5 -->
+        <section class="section" id="retention-deletion">
+            <h2>5. Data Storage, Retention &amp; Deletion</h2>
+            <h3>Local Device Storage</h3>
+            <ul>
+                <li><strong>Audio Cache:</strong> The temporary recording file
+                    (<code>cacheDir/stt-&lt;uuid&gt;.wav</code>) is strictly transient. In client code
+                    (<code>SttSessionService.kt</code>), this file is <strong>deleted immediately</strong> in a
+                    guaranteed <code>finally</code> block as soon as upload succeeds, upload fails, or recording is
+                    cancelled.</li>
+                <li><strong>Transcripts:</strong> Returned text is passed directly into the active app and cleared
+                    from service state. No historical transcript database or audio history is kept on the device.
+                </li>
+                <li><strong>Local App Data Deletion:</strong> Uninstalling the application or using Android "Clear
+                    Storage" permanently purges all local preference data.</li>
+            </ul>
+
+            <h3>Server-Side Retention &amp; Processing</h3>
+            <p>Audio clips transmitted to <code>api-v1.monlamai.studio</code> are processed to compute Tibetan text
+                transcriptions.</p>
+            <ul>
+                <li><strong>Server Retention Period:</strong> Audio clips are processed in temporary memory for transcription. Server-side logs and operational artifacts are retained only as needed for service reliability and log rotation.</li>
+                <li><strong>Model Training &amp; Transcripts:</strong> Audio clips are processed strictly to return accurate Tibetan text to your device. Voice dictation data is not linked to personal user accounts or commercial marketing profiles.</li>
+                <li><strong>No User Profiling:</strong> Audio is associated with a random per-clip UUID
+                    (<code>x-idempotency-key</code>) and the application API key; it is not linked to personal user
+                    accounts or advertising profiles.</li>
+            </ul>
+        </section>
+
+        <!-- 6 -->
+        <section class="section" id="permissions">
+            <h2>6. Android Permissions Used</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Permission</th>
+                            <th>Purpose</th>
+                            <th>When &amp; How It Is Used</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>RECORD_AUDIO</code></td>
+                            <td>Capturing voice dictation</td>
+                            <td>Requested only when you tap the mic icon. Active only during a recording clip
+                                (maximum 30 s). Never active in background.</td>
+                        </tr>
+                        <tr>
+                            <td><code>FOREGROUND_SERVICE</code><br /><code>FOREGROUND_SERVICE_MICROPHONE</code></td>
+                            <td>Android 14+ background microphone requirement</td>
+                            <td>Allows the STT service to hold the microphone while you are typing in another app.
+                                Displays a persistent system notification.</td>
+                        </tr>
+                        <tr>
+                            <td><code>INTERNET</code></td>
+                            <td>Uploading audio clip to STT server</td>
+                            <td>Used exclusively during active speech dictation to communicate with
+                                <code>api-v1.monlamai.studio</code>. Never used for keyboard typing.</td>
+                        </tr>
+                        <tr>
+                            <td><code>POST_NOTIFICATIONS</code></td>
+                            <td>Active recording status display</td>
+                            <td>Required on Android 13+ to display the ongoing voice-recording notification.</td>
+                        </tr>
+                        <tr>
+                            <td><code>READ_SETTINGS</code><br /><code>READ_STT</code><br /><code>WRITE_STT</code>
+                            </td>
+                            <td>Internal inter-process communication</td>
+                            <td>Declared with <code>protectionLevel="signature"</code>. Only components signed with
+                                the Monlam certificate can communicate between the keyboard and service.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 7 -->
+        <section class="section" id="data-not-collected">
+            <h2>7. Information We Do NOT Collect</h2>
+            <p>For complete clarity, Monlam Keyboard does <strong>NOT</strong> access, collect, or transmit any of
+                the following:</p>
+            <ul>
+                <li>Device identifiers (IMEI, Android ID, Advertising ID, serial number, MAC address)</li>
+                <li>Geographic location (GPS, network location, or Wi-Fi scan data)</li>
+                <li>Contact lists, phone logs, SMS, or address books</li>
+                <li>Files, photos, media, or external documents on device storage</li>
+                <li>Biometric voiceprints or speaker recognition profiles</li>
+                <li>Browsing activity or cross-app analytics</li>
+            </ul>
+        </section>
+
+        <!-- 8 -->
+        <section class="section" id="third-party">
+            <h2>8. Third-Party Services &amp; Advertising</h2>
+            <ul>
+                <li><strong>Zero Advertising SDKs:</strong> No ad networks (such as Google AdMob, Unity, AppLovin)
+                    are integrated.</li>
+                <li><strong>Zero Analytics Trackers:</strong> No third-party usage analytics (such as Google
+                    Firebase Analytics, Facebook SDK, Mixpanel, Segment) are included.</li>
+                <li><strong>Zero Crash Telemetry:</strong> No third-party crash trackers (such as Crashlytics or
+                    Sentry) are compiled in this build.</li>
+                <li><strong>No Sale of Data:</strong> We do not sell, rent, or trade user data to data brokers or
+                    commercial marketers.</li>
+            </ul>
+        </section>
+
+        <!-- 9 -->
+        <section class="section" id="security">
+            <h2>9. Security Measures</h2>
+            <ul>
+                <li><strong>TLS Encryption in Transit:</strong> All voice dictation network calls are encrypted via
+                    TLS (HTTPS) to prevent interception.</li>
+                <li><strong>Cloud Backup Disabled:</strong> Android Cloud Backup is explicitly disabled
+                    (<code>android:allowBackup="false"</code> in <code>AndroidManifest.xml</code>) to prevent
+                    sensitive keyboard state from being mirrored to unencrypted cloud backups.</li>
+                <li><strong>Signature-Protected IPC:</strong> Inter-process communication between the keyboard IME
+                    and the companion service is locked with Android signature permissions, preventing rogue apps
+                    from issuing microphone commands or reading input status.</li>
+            </ul>
+        </section>
+
+        <!-- 10 -->
+        <section class="section" id="controls">
+            <h2>10. Your Rights &amp; Privacy Controls</h2>
+            <ul>
+                <li><strong>Revoke Microphone Permission:</strong> You can revoke microphone access at any time in
+                    Android Settings → Apps → Monlam Keyboard → Permissions → Microphone. Normal typing continues
+                    without interruption.</li>
+                <li><strong>Disable Word Predictions:</strong> Open the Monlam Keyboard app → Word suggestions →
+                    select a different method or disable suggestions.</li>
+                <li><strong>Switch or Disable Keyboard:</strong> Go to Android Settings → System → Languages &amp;
+                    Input → On-screen keyboard to disable Monlam Keyboard.</li>
+                <li><strong>Erase Local Data:</strong> Uninstall the application to remove all stored preferences
+                    and cached resources from your device.</li>
+            </ul>
+        </section>
+
+        <!-- 11 -->
+        <section class="section" id="children">
+            <h2>11. Children's Privacy</h2>
+            <p>Monlam Keyboard is a general-purpose language input tool and is not specifically directed at children
+                under the age of 13 (or under 16 in the European Economic Area). We do not knowingly collect
+                personal information from children. If you believe a child has submitted audio without parental
+                consent, please contact us for immediate assistance.</p>
+        </section>
+
+        <!-- 12 -->
+        <section class="section" id="international">
+            <h2>12. International Processing &amp; Jurisdiction</h2>
+            <p>Voice dictation requests are routed to Monlam's cloud infrastructure:</p>
+            <ul>
+                <li><strong>Server Location:</strong> Monlam Speech-to-Text servers and cloud infrastructure operate in secure, industry-standard regional data centers.</li>
+                <li>By submitting voice dictation, you acknowledge that your audio clip is transferred to our server
+                    infrastructure for real-time transcription.</li>
+            </ul>
+        </section>
+
+        <!-- 13 -->
+        <section class="section" id="changes">
+            <h2>13. Changes to This Privacy Policy</h2>
+            <p>We may update this policy periodically to reflect enhancements, legal updates, or service
+                modifications. When changes are made, the "Last Updated" date at the top of this document will be
+                revised. Continued use of the keyboard signifies acceptance of the updated terms.</p>
+        </section>
+
+        <!-- 14 -->
+        <section class="section" id="contact">
+            <h2>14. Privacy Contact &amp; Legal Entity</h2>
+            <p>For questions, privacy inquiries, or data requests regarding Monlam Keyboard, please contact:</p>
+            <ul>
+                <li><strong>Organization:</strong> Monlam Tibetan IT Research Center</li>
+                <li><strong>Physical Address:</strong> Dharamshala, Kangra District, Himachal Pradesh, India</li>
+                <li><strong>Official Website:</strong> <a href="https://monlam.ai" target="_blank"
+                        rel="noopener noreferrer">https://monlam.ai</a></li>
+                <li><strong>Contact Email:</strong> <a href="mailto:support@monlam.ai">support@monlam.ai</a> / <code>privacy@monlam.ai</code></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Monlam Tibetan IT Research Center &nbsp;·&nbsp; Monlam Keyboard for Android</p>
+        <p style="margin-top: 6px;">Package ID: <code>com.monlamai.monlamkeyboard</code> · <a href="https://monlam.ai" target="_blank" rel="noopener noreferrer">https://monlam.ai</a></p>
+    </footer>
+</body>
+
+</html>
